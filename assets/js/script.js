@@ -2,20 +2,18 @@
 $(document).ready(function(){
   // Get value on button click
   $("#city-search").click(function(){
-      var str = $("#search-input").val();
-      console.log(str);
+      var cityName = $("#search-input").val();
+      console.log(cityName);
 
-  $("ul").append("<li class=list-group-item>" + str + "</li>")
+  $("ul").append("<li class=list-group-item>" + cityName + "</li>")
 
   // Performing GET requests to the openweather API and logging the response to the console
   // Current weather API AJAX GET request
 
-  var cityname = "Seattle";
-  var statecode = "98125";
-  console.log(`https://api.openweathermap.org/data/2.5/weather?q=${cityname},${statecode}&appid=fd427a830aad982e864b2dfe048a7248`);
+  console.log(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=fd427a830aad982e864b2dfe048a7248`);
 
   $.ajax({
-      url: `https://api.openweathermap.org/data/2.5/weather?q=${cityname},${statecode}&appid=fd427a830aad982e864b2dfe048a7248`,
+      url: `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=fd427a830aad982e864b2dfe048a7248`,
       method: "GET"
     }).then(function(response) {
       console.log(response);
@@ -24,7 +22,7 @@ $(document).ready(function(){
 
   // 5 Day Daily Forecast API AJAX GET request
   $.ajax({
-    url: "https://api.openweathermap.org/data/2.5/forecast?q=Seattle,98125&appid=fd427a830aad982e864b2dfe048a7248",
+    url: `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=fd427a830aad982e864b2dfe048a7248`,
     method: "GET"
     }).then(function(response) {
     console.log(response);
