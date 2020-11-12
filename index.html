@@ -12,10 +12,11 @@
             <strong>Weather Dashboard</strong>
         </h1>
     </div>
+
     <div class="container-fluid">
-        <div class="row">
-            <div class="card col-4 pb-4" style="background-color: lightsteelblue;">
-                <div class="body">
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-footer">
                     <h5 class="card-title">Search for a City:</h5>
                     <div class="input-group mb-2">
                         <input class="form-control" id="search-input" type="text" aria-label="Search for a City">
@@ -23,34 +24,18 @@
                             <button data-search="search" id="city-search" class="btn btn-primary btn-lg fa fa-search" type="submit"></button>
                         </div>
                     </div>
-                </div>
-                <div class="list-group " id="list-tab" role="tablist">
-                    <button type="button" class="list-group-item list-group-item-action" data-toggle="list" role="tab" data-city="Austin">Austin</button>
-                    <button type="button" class="list-group-item list-group-item-action" data-toggle="list" role="tab" data-city="Chicago">Chicago</button>
-                    <button type="button" class="list-group-item list-group-item-action" data-toggle="list" role="tab" data-city="New-York">New York</button>
-                    <button type="button" class="list-group-item list-group-item-action" data-toggle="list" role="tab" data-city="Orlando">Orlando</button>
-                    <button type="button" class="list-group-item list-group-item-action" data-toggle="list" role="tab" data-city="San-Francisco">San Francisco</button>
-                    <button type="button" class="list-group-item list-group-item-action" data-toggle="list" role="tab" data-city="Seattle">Seattle</button>
-                    <button type="button" class="list-group-item list-group-item-action" data-toggle="list" role="tab" data-city="Denver">Denver</button>
-                    <button type="button" class="list-group-item list-group-item-action" data-toggle="list" role="tab" data-city="Atlanta">Atlanta</button>
+                    <ul class="list-group list-group-flush" id="list-tab" role="tablist"></ul>
                 </div>
             </div>
 
-            <div class="card col-8">
-                <div class="card-body" id="city-forecast">
-                    <div class="tab-content mt-3">
-                        <h5>Location (M/DD/YYYY)</h5>
-                        <div class="tab-pane" role="tabpanel">...</div>
-                    </div>
-                </div>
-
-                <div class="card-body" id="5-day">
-                    <div class="tab-content mt-3" id="5-day">
-                        <h5>5-Day Forecast:</h5>
-                        <div class="tab-pane" role="tabpanel">...</div>
-                    </div>
-                </div>
+            <div class="card p-3" id="location">
+                <h5>Location (M/DD/YYYY)</h5>
             </div>
+
+            <div class="tab-content p-3" id="5-day">
+                <h5>5-Day Forecast:</h5>
+            </div>
+
         </div>
     </div>
 
