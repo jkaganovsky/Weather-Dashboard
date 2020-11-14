@@ -1,0 +1,29 @@
+.low {
+    background-color: lightgreen;
+    border-radius: round;
+    padding: 3px;
+}
+
+.moderate {
+    background-color: yellow;
+    border-radius: round;
+    padding: 3px;
+}
+
+.high {
+    background-color: orange;
+    border-radius: round;
+    padding: 3px;
+}
+
+.veryhigh {
+    background-color: red;
+    border-radius: round;
+    padding: 3px;
+}
+
+.extreme {
+    background-color: deeppink;
+    border-radius: round;
+    padding: 3px;
+}
