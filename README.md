@@ -19,14 +19,14 @@ Built a weather dashboard that will run in the browser and feature dynamically u
 
 * CSS
 
-![css](.assets/images/css.png)
+![css](./assets/images/stylecss.png)
 
 * JS
 
-![js1](.assets/images/js-1.png)
-![js2](.assets/images/js-2.png)
-![js3](.assets/images/js-3.png)
-![js4](.assets/images/js-4.png)
+![js1](./assets/images/script1.png)
+![js2](./assets/images/script2.png)
+![js3](./assets/images/script3.png)
+![js4](./assets/images/script4.png)
 
 ## Credits
 1. https://www.tutorialrepublic.com/faq/how-to-get-the-value-in-an-input-text-box-using-jquery.php
