@@ -2,11 +2,12 @@
 
 ## Summary
 Built a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS using the OpenWeather API to retrieve weather forecast in US cities.
+When the page initially loads, my current city of Seattle weather forecast will populate. And when the user reloads the page, the very last city entry will be in view.
+And if the use decides they want to view a city from a search history list, that clicked city's weather forecast will load on the page.
 
 ## Links
 1. [Github Repository](https://github.com/jkaganovsky/Weather-Dashboard)
 1. [Deployed Website](https://jkaganovsky.github.io/Weather-Dashboard/)
-
 
 ## Content and Description:
 * DEMO
