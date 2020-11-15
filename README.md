@@ -1,9 +1,7 @@
 # Weather-Dashboard
 
-## UW CODING BOOT CAMP HOMEWORK 06
-
 ## Summary
-Built a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS using the OpenWeather API to retrieve weather data for cities.
+Built a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS using the OpenWeather API to retrieve weather forecast in US cities.
 
 ## Links
 1. [Github Repository](https://github.com/jkaganovsky/Weather-Dashboard)
@@ -13,26 +11,29 @@ Built a weather dashboard that will run in the browser and feature dynamically u
 ## Content and Description:
 * DEMO
 
-![](./assets/images/.gif)
+![gif](./assets/images/weather-dashboard.gif)
 
 * HTML
 
-![index](./assets/images/index_html.png)
+![index](./assets/images/html.png)
 
+* CSS
+
+![css](.assets/images/css.png)
 
 * JS
 
-![]()
-
-![]()
-
-![]()
-
+![js1](.assets/images/js-1.png)
+![js2](.assets/images/js-2.png)
+![js3](.assets/images/js-3.png)
+![js4](.assets/images/js-4.png)
 
 ## Credits
 1. https://www.tutorialrepublic.com/faq/how-to-get-the-value-in-an-input-text-box-using-jquery.php
 1. https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append
-1.
+1. https://www.tutorialspoint.com/momentjs/momentjs_add.htm
+1. https://api.jquery.com/attr/
+1. https://getbootstrap.com/docs/4.5/layout/grid/
 
 ## License
 MIT License
